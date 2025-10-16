@@ -1,5 +1,6 @@
 import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
+import { ThemeToggle } from "./ThemeToogle";
 
 const Header = () => {
   const navItems = [
@@ -28,8 +29,9 @@ const Header = () => {
           ))}
         </div>
 
-        <div className="flex items-center gap-3">
-          <Button variant="nav" size="nav" className="text-xs sm:text-sm">
+        <div className="flex items-center gap-4">
+          <ThemeToggle />
+          <Button variant="default" size="lg" className="text-xs sm:text-sm">
             CONTACT
           </Button>
         </div>
