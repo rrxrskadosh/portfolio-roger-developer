@@ -1,4 +1,7 @@
 @import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+@custom-variant dark (&:is(.dark *));
 @config  "../tailwind.config";
 
 @font-face {
@@ -107,7 +110,7 @@
     font-family: 'Moderniz', sans-serif;
     overflow-x: hidden;
   }
-  
+
   html {
     overflow-x: hidden;
   }
@@ -123,7 +126,7 @@
   }
 
   .text-display {
-    @apply text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-black leading-none tracking-tight;
+    @apply text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-none tracking-tight;
   }
 
   .text-accent-highlight {
