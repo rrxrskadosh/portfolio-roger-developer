@@ -4,6 +4,8 @@ import AboutMe from "../components/about/About";
 import LatestWork from "../components/work/LatestWork";
 import Footer from "../components/layout/Footer";
 import Experience from "../components/experience/Experience";
+import FullstackDev from "../components/skills/FullstackDev";
+import Skills from "../components/skills/Skills";
 
 const Index = () => {
   return (
@@ -13,6 +15,8 @@ const Index = () => {
       <AboutMe />
       <LatestWork />
       <Experience />
+      <Skills />
+      <FullstackDev />
       <Footer />
     </div>
   );

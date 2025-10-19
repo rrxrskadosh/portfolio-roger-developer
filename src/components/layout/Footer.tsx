@@ -17,7 +17,12 @@ const Footer = () => {
             size="lg"
             className="px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg"
           >
-            CONTACT
+            <a 
+              href="mailto:info@rogerreyescreative.com?subject=Contact%20from%20you%20website&body=Hello%20Roger,%20I%20want%20to%20get%20in%20touch%20with%20you." 
+              className="no-underline text-inherit"
+            >
+              CONTACT
+            </a>
           </Button>
         </div>
       </section>
@@ -32,7 +37,7 @@ const Footer = () => {
 
           {/* Email */}
           <p className="text-xs sm:text-sm font-medium text-center">
-            Email me at: kadoshr2019@gmail.com
+            Email me at: info@rogerreyescreative.com
           </p>
 
           {/* Social Links */}

@@ -32,7 +32,12 @@ const Header = () => {
         <div className="flex items-center gap-4">
           <ThemeToggle />
           <Button variant="default" size="lg" className="text-xs sm:text-sm">
-            CONTACT
+            <a 
+              href="mailto:info@rogerreyescreative.com?subject=Contact%20from%20you%20website&body=Hello%20Roger,%20I%20want%20to%20get%20in%20touch%20with%20you." 
+              className="no-underline text-inherit"
+            >
+              CONTACT
+            </a>
           </Button>
         </div>
       </nav>
