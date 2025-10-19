@@ -76,7 +76,9 @@ const AboutMe = () => {
               size="lg"
               className="text-sm sm:text-base font-bold uppercase tracking-wider"
             >
-              CV DOWNLOAD
+             <a href="/FULL-STACK_DEVELOPER_-_ROGER_REYES_CV.pdf" download>
+                CV DOWNLOAD
+              </a>
             </Button>
           </div>
         </div>

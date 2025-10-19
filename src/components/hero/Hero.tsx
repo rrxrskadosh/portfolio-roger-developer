@@ -34,7 +34,7 @@ const Hero = () => {
 
       {/* Bottom Ticker */}
       <div className="absolute bottom-0 left-0 right-0 bg-primary text-primary-foreground py-4 sm:py-6 overflow-hidden">
-        <div className="animate-marquee whitespace-nowrap flex font-saira">
+        <div className="animate-marquee whitespace-nowrap flex">
           <span className="text-sm sm:text-lg md:text-xl lg:text-2xl font-bold uppercase tracking-wider mx-6 sm:mx-8">
             MORE THAN 50 PROJECTS - 4 YEARS EXPERIENCE ✨
           </span>

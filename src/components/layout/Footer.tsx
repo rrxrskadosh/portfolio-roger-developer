@@ -23,7 +23,7 @@ const Footer = () => {
       </section>
 
       {/* Footer Bar */}
-      <div className="bg-card text-card-foreground py-4 sm:py-5 md:py-6 px-4 sm:px-6">
+      <div className="bg-black dark:bg-card text-white dark:text-card-foreground py-4 sm:py-5 md:py-6 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 sm:gap-4 font-saira">
           {/* Copyright */}
           <p className="text-xs sm:text-sm font-medium text-center md:text-left">
@@ -38,7 +38,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center gap-3 sm:gap-4">
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/roger-enrique-reyes-bola%C3%B1o/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:opacity-70 transition-opacity"
@@ -47,7 +47,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5 sm:w-6 sm:h-6" />
             </a>
             <a 
-              href="https://facebook.com" 
+              href="https://www.facebook.com/rogerreyes5780" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:opacity-70 transition-opacity"
