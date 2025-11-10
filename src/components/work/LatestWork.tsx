@@ -9,6 +9,7 @@ interface Project {
   category: string;
   image: string;
   size: "small" | "medium" | "large";
+  url?: string;
 }
 
 const projects: Project[] = [
@@ -18,6 +19,7 @@ const projects: Project[] = [
     category: "UI UX - Website",
     image: marbolStores,
     size: "small",
+    url: "https://marbol.net/",
   },
   {
     id: 2,
@@ -25,6 +27,7 @@ const projects: Project[] = [
     category: "UI UX - Website",
     image: alinin,
     size: "medium",
+    url: "https://alinin.org/",
   },
   {
     id: 3,
@@ -52,8 +55,11 @@ const LatestWork = () => {
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {projects.map((project) => (
-            <div
+            <a
               key={project.id}
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
               className={`group relative cursor-pointer ${
                 project.size === "large" ? "md:col-span-2" : ""
               }`}
@@ -86,7 +92,7 @@ const LatestWork = () => {
                   {project.category}
                 </p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
