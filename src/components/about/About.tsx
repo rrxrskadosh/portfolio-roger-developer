@@ -1,38 +1,64 @@
 import { Button } from "../ui/button";
-import teamWorkspace from "../../assets/team-workspace.jpg";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "../ui/carousel";
+
+import congress1 from "../../assets/congress-1.jpg";
+import congress2 from "../../assets/congress-2.jpg";
 
 const AboutMe = () => {
   return (
     <section id="about" className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-background overflow-hidden">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-20 items-center">
-          {/* Image */}
+          {/* Image Carousel */}
           <div className="relative order-2 lg:order-1">
-            <div className="relative">
-              <img
-                src={teamWorkspace}
-                alt="Collaborative workspace with multiple laptops and creative tools"
-                className="w-full h-auto rounded-2xl sm:rounded-3xl shadow-2xl border-4 sm:border-8 border-card transform hover:scale-105 transition-transform duration-500"
-              />
-              {/* Decorative dots pattern */}
-              <div className="absolute -top-4 sm:-top-8 -right-4 sm:-right-8 w-20 sm:w-32 h-20 sm:h-32 opacity-60">
-                <svg viewBox="0 0 100 100" className="w-full h-full">
-                  {Array.from({ length: 25 }).map((_, i) => {
-                    const x = (i % 5) * 20 + 10;
-                    const y = Math.floor(i / 5) * 20 + 10;
-                    return (
-                      <circle
-                        key={i}
-                        cx={x}
-                        cy={y}
-                        r="2"
-                        fill="currentColor"
-                        className="text-foreground"
-                      />
-                    );
-                  })}
-                </svg>
-              </div>
+            <Carousel className="w-full">
+              <CarouselContent>
+                <CarouselItem>
+                  <div className="relative">
+                    <img
+                      src={congress1}
+                      alt="VIII Congreso Internacional - Foto grupal con bandera colombiana"
+                      className="w-full h-auto rounded-2xl sm:rounded-3xl shadow-2xl border-4 sm:border-8 border-card"
+                    />
+                  </div>
+                </CarouselItem>
+                <CarouselItem>
+                  <div className="relative">
+                    <img
+                      src={congress2}
+                      alt="Presentación virtual en el congreso internacional"
+                      className="w-full h-auto rounded-2xl sm:rounded-3xl shadow-2xl border-4 sm:border-8 border-card"
+                    />
+                  </div>
+                </CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious className="left-2" />
+              <CarouselNext className="right-2" />
+            </Carousel>
+            {/* Decorative dots pattern */}
+            <div className="absolute -top-4 sm:-top-8 -right-4 sm:-right-8 w-20 sm:w-32 h-20 sm:h-32 opacity-60">
+              <svg viewBox="0 0 100 100" className="w-full h-full">
+                {Array.from({ length: 25 }).map((_, i) => {
+                  const x = (i % 5) * 20 + 10;
+                  const y = Math.floor(i / 5) * 20 + 10;
+                  return (
+                    <circle
+                      key={i}
+                      cx={x}
+                      cy={y}
+                      r="2"
+                      fill="currentColor"
+                      className="text-foreground"
+                    />
+                  );
+                })}
+              </svg>
             </div>
           </div>
 
