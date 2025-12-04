@@ -3,7 +3,7 @@ import figmaIcon from "../../assets/figma-icon.png";
 import diagramIcon from "../../assets/diagram-icon.png";
 import miroIcon from "../../assets/miro-icon.png";
 import xmindIcon from "../../assets/xmind-icon.png";
-import photoshopIcon from "../..//assets/photoshop-icon.png";
+import photoshopIcon from "../../assets/photoshop-icon.png";
 
 
 // Componente de hexágono reusable con bordes redondeados

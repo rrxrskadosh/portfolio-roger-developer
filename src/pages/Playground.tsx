@@ -26,7 +26,7 @@ const projects: PlaygroundProject[] = [
     description: "Layout UI - Django Webapp",
     tags: ["Django", "Web App", "UI Design"],
     color: "bg-playground-card",
-    image: "../src/assets/swapps.png",
+    image: "/src/assets/swapps.png",
     url: "https://swapps.com",
   },
   {
@@ -35,7 +35,7 @@ const projects: PlaygroundProject[] = [
     description: "Custom website wordpress, maintenance wordpress, web security, UI UX Design, System Design",
     tags: ["WordPress", "UI/UX", "Web Security"],
     color: "bg-playground-card",
-    image: "../src/assets/plur-e.png",
+    image: "/src/assets/plur-e.png",
     url: "https://www.plur-e.com/",
   },
   {
@@ -44,7 +44,7 @@ const projects: PlaygroundProject[] = [
     description: "Python, Scrappy - Web scrapping",
     tags: ["Python", "Scraping", "Data Extraction"],
     color: "bg-playground-card",
-    image: "../src/assets/turismo-madrid.jpg",
+    image: "/src/assets/turismo-madrid.jpg",
     url: "https://github.com/rrxrskadosh/turismo-madrid-scrapping",
   },
   {
@@ -53,7 +53,7 @@ const projects: PlaygroundProject[] = [
     description: "Coordinador de Tecnología y Virtualidad",
     tags: ["Educational Tech", "Virtual Learning", "Platform"],
     color: "bg-playground-card",
-    image: "../src/assets/alinin-laptop-mockup.png",
+    image: "/src/assets/alinin-laptop-mockup.png",
     url: "https://alinin.org",
   },
   {
@@ -62,7 +62,7 @@ const projects: PlaygroundProject[] = [
     description: "Grupo de investigación científica universitaria interdisciplinaria nuevas tendencias",
     tags: ["Research", "Academic", "Innovation"],
     color: "bg-playground-card",
-    image: "../src/assets/gicuint.png",
+    image: "/src/assets/gicuint.png",
     url: "https://alinin.org/gicuint/",
   },
 ];
