@@ -7,7 +7,7 @@ const Header = () => {
     { label: "ABOUT ME", href: "#about" },
     { label: "SKILLSET", href: "#skills" },
     { label: "WORK", href: "#work" },
-    { label: "PLAYGROUND", href: "#playground" },
+    { label: "PLAYGROUND", href: "playground" },
   ];
 
   return (

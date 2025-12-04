@@ -99,7 +99,7 @@ const LatestWork = () => {
         {/* View All Projects Link */}
         <div className="mt-12 sm:mt-16 text-center">
           <a
-            href="#"
+            href="/playground"
             className="inline-flex items-center gap-2 text-base sm:text-lg font-bold uppercase tracking-wider hover:text-accent transition-colors group"
           >
             VIEW ALL PROJECTS
