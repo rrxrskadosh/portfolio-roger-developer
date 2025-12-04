@@ -180,8 +180,8 @@ return (
 
           {/* Projects Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-            {projects.map((project, index) => (
-              <ProjectCard key={project.id} project={project} index={index} />
+            {projects.map((project) => (
+              <ProjectCard key={project.id} project={project}  />
             ))}
           </div>
         </div>
@@ -192,7 +192,7 @@ return (
   );
 };
 
-const ProjectCard = ({ project, index }: { project: PlaygroundProject; index: number }) => {
+const ProjectCard = ({ project }: { project: PlaygroundProject }) => {
   const cardRef = useRef<HTMLDivElement>(null);
 
   return (
