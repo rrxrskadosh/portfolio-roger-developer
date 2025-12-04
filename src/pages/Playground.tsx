@@ -7,6 +7,13 @@ import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import { ArrowUpRight } from "lucide-react";
 
+// Import Images
+import swappsImage from "../assets/swapps.png";
+import plurEImage from "../assets/plur-e.png";
+import turismoMadridImage from "../assets/turismo-madrid.jpg";
+import alininImage from "../assets/alinin-laptop-mockup.png";
+import gicuintImage from "../assets/gicuint.png";
+
 gsap.registerPlugin(ScrollTrigger);
 
 interface PlaygroundProject {
@@ -26,7 +33,7 @@ const projects: PlaygroundProject[] = [
     description: "Layout UI - Django Webapp",
     tags: ["Django", "Web App", "UI Design"],
     color: "bg-playground-card",
-    image: "/src/assets/swapps.png",
+    image: swappsImage,
     url: "https://swapps.com",
   },
   {
@@ -35,7 +42,7 @@ const projects: PlaygroundProject[] = [
     description: "Custom website wordpress, maintenance wordpress, web security, UI UX Design, System Design",
     tags: ["WordPress", "UI/UX", "Web Security"],
     color: "bg-playground-card",
-    image: "/src/assets/plur-e.png",
+    image: plurEImage,
     url: "https://www.plur-e.com/",
   },
   {
@@ -44,7 +51,7 @@ const projects: PlaygroundProject[] = [
     description: "Python, Scrappy - Web scrapping",
     tags: ["Python", "Scraping", "Data Extraction"],
     color: "bg-playground-card",
-    image: "/src/assets/turismo-madrid.jpg",
+    image: turismoMadridImage,
     url: "https://github.com/rrxrskadosh/turismo-madrid-scrapping",
   },
   {
@@ -53,7 +60,7 @@ const projects: PlaygroundProject[] = [
     description: "Coordinador de Tecnología y Virtualidad",
     tags: ["Educational Tech", "Virtual Learning", "Platform"],
     color: "bg-playground-card",
-    image: "/src/assets/alinin-laptop-mockup.png",
+    image: alininImage,
     url: "https://alinin.org",
   },
   {
@@ -62,7 +69,7 @@ const projects: PlaygroundProject[] = [
     description: "Grupo de investigación científica universitaria interdisciplinaria nuevas tendencias",
     tags: ["Research", "Academic", "Innovation"],
     color: "bg-playground-card",
-    image: "/src/assets/gicuint.png",
+    image: gicuintImage,
     url: "https://alinin.org/gicuint/",
   },
 ];
