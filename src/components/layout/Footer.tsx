@@ -1,5 +1,5 @@
 import { Button } from "../ui/button";
-import { Linkedin, Facebook } from "lucide-react";
+import { FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -49,7 +49,7 @@ const Footer = () => {
               className="hover:opacity-70 transition-opacity"
               aria-label="LinkedIn"
             >
-              <Linkedin className="w-5 h-5 sm:w-6 sm:h-6" />
+              <FaLinkedin className="w-5 h-5 sm:w-6 sm:h-6" />
             </a>
             <a 
               href="https://www.facebook.com/rogerreyes5780" 
@@ -58,7 +58,7 @@ const Footer = () => {
               className="hover:opacity-70 transition-opacity"
               aria-label="Facebook"
             >
-              <Facebook className="w-5 h-5 sm:w-6 sm:h-6" />
+              <FaFacebook className="w-5 h-5 sm:w-6 sm:h-6" />
             </a>
           </div>
         </div>
