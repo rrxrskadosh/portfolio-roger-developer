@@ -32,7 +32,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "SARA REYNA - REALTOR",
+    title: "SANDRA REYNA - REALTOR",
     category: "UI UX - Website",
     image: sandrareyna,
     size: "small",
