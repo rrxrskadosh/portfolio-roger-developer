@@ -13,6 +13,7 @@ import plurEImage from "../assets/plur-e.png";
 import turismoMadridImage from "../assets/turismo-madrid.jpg";
 import alininImage from "../assets/alinin-laptop-mockup.png";
 import gicuintImage from "../assets/gicuint.png";
+import sandrareyna from "../assets/sandra-reyna-web.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -71,6 +72,15 @@ const projects: PlaygroundProject[] = [
     color: "bg-playground-card",
     image: gicuintImage,
     url: "https://alinin.org/gicuint/",
+  },
+  {
+    id: 6,
+    title: "SANDRA REYNA REALTOR",
+    description: "Realtor in the Dallas-Fort Worth",
+    tags: ["Real State", "KW Agency"],
+    color: "bg-playground-card",
+    image: sandrareyna,
+    url: "https://sandrareynarealtor.com/",
   },
 ];
 

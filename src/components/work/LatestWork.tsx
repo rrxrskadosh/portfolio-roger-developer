@@ -2,6 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 import marbolStores from "../../assets/marbol-stores.png";
 import alinin from "../../assets/alinin-laptop-mockup.png";
 import flowVibes from "../../assets/flow-vibes.png";
+import sandrareyna from "../../assets/sandra-reyna-web.png"
 
 interface Project {
   id: number;
@@ -26,15 +27,23 @@ const projects: Project[] = [
     title: "ALININ - SCIENTIFIC RESEARCH PLATFORM",
     category: "UI UX - Website",
     image: alinin,
-    size: "medium",
+    size: "small",
     url: "https://alinin.org/",
   },
   {
     id: 3,
+    title: "SARA REYNA - REALTOR",
+    category: "UI UX - Website",
+    image: sandrareyna,
+    size: "small",
+    url: "https://sandrareynarealtor.com/",
+  },
+  {
+    id: 4,
     title: "FLOWVIBES - ECOMMERCE",
     category: "UI UX - Architecture Information",
     image: flowVibes,
-    size: "large",
+    size: "small",
   },
 ];
 
